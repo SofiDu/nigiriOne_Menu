@@ -43,8 +43,8 @@ body {
 }
 
 .content {
-  margin-top: 5em; /* Add margin to create space between header and content */
-  padding: 0 20px; /* Optional padding for content */
+  margin-top: 3em;
+  padding: 0 20px; 
   text-align:center;
 }
 
@@ -166,7 +166,7 @@ body {
   transform: translate(-50%,-50%) scale(0);
   background: #fff;
   width: 450px;
-  height: 220px;
+  height: 250px;
   z-index: 2;
   text-align: center;
   padding:20px;
@@ -263,25 +263,15 @@ body {
   font-size: 13px;
 }
 
-.menu_special-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
-  grid-gap: 30px; /* 2 items */
-  padding: 5px;
-}
-
-.dishes_special-item img{
-  align-self: center;
-  width: 100px;
-  height: 100px;
-}
-
-.dishes_special-item{
-  text-align: center;
-}
 
 .dishes-item{
   text-align: center;
+}
+
+.dishes-item img{
+  align-self: center;
+  width: 100px;
+  height: 90px;
 }
 
 .centered-content {
@@ -374,7 +364,7 @@ body {
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 300px;
-    height: 220px;
+    height: 330px;
     z-index: 2;
     text-align: center;
     padding:20px;
