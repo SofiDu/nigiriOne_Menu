@@ -33,6 +33,12 @@ body {
   box-shadow: 0 2px 20px rgb(82, 72, 72);
 }
 
+.discription {
+  color: #f9f8f8;
+  margin: 0; 
+  text-align: right; 
+}
+
 .logo img{
   width: 180px;
   flex: 0 0 auto;
@@ -57,6 +63,11 @@ body {
 .content h1{
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.content_price{
+  margin-top: 1em;
+  margin-bottom: 0.1em;
 }
 
 #menu4plates{
@@ -248,9 +259,44 @@ body {
   margin-top: 10px;
 }
 
+/*----------temaki items----------------*/
 
+.temaki_div_left{
+  width: 30%;
+  float: left;
+}
 
+.temaki_div_right{
+  float: right;
+  width: 70%;
+  text-align: left;
+}
 
+.temaki_item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.temaki_img img{
+  width: 300px;
+  height: 200px;
+  display: inline-block; 
+}
+
+.temaki_block {
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.maki_slim_roles_div_start{
+  margin-top: 200px;
+}
 /*----------menu items----------------*/
 
 .menu-container {
@@ -303,8 +349,14 @@ body {
 .time:last-child {
   margin-bottom: 30px;
 }
+
 @media screen and (max-width: 768px) {
   
+
+  .content_price {
+    margin-top: 0.25em;
+    margin-bottom: 0.1em;
+  }
 
   .menu-item {
     width: 30%; /* Display items in a single column on small screens */
@@ -313,6 +365,23 @@ body {
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+
+  .strong_for_big_roles {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .temaki_div_left{
+    width: 50%;
+    float: left;
+  }
+  
+  .temaki_div_right{
+    float: right;
+    width: 50%;
+    text-align: left;
   }
 
   .logo img{
@@ -346,6 +415,20 @@ body {
     grid-gap: 20px; /* Adjust the gap between items */
   }
 
+  .temaki_img img{
+    width: 200px;
+    height: 180px;
+    display: inline-block; 
+  }
+  
+  .temaki_block {
+    width: 200px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 500px;
+  }
 
   .popups{
     background-color: white;

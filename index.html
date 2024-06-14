@@ -26,14 +26,21 @@
       <div class="content_popup">
         <div class="close-btn" onclick="togglePopupMenu('popup_buffet')">&times;</div>
         <h1>BUFFET À LA CARTE</h1>
-        <p>Na opção <strong>Buffet</strong> pode escolher tudo o que quiser sem limites.</p>
-        <p>18.95€ / pessoa</p>
+        <p>Na opção <strong>Buffet*</strong> pode escolher tudo o que quiser sem limites.</p>
+        <p>15.95€ / adulto</p>
+        <p>8.00€ / criança (4 a 9 anos)</p>
+        <p>*Bebidas e Cafés não incluídos.</p>
         <p>Bom Apetite!</p>
         <p>(Estime a comida. Obrigado!)</p>
       </div>
     </div>
 
     <button class="popups" onclick="togglePopupMenu('popup_buffet')">BUFFET À LA CARTE <i class="fa-solid fa-circle-info fa-xs"></i> </button>
+
+    <div class="content_price">
+      <p> <strong>15.95€ / pessoa </strong></p>
+      <p> <strong>8.00€ / crianças (4 a 9 anos) </strong></p>
+    </div>
 
     <div class="red-line"></div>
 
@@ -43,14 +50,19 @@
         <div class="close-btn" onclick="togglePopupMenu('popup_menu')">&times;</div>
         <h1>MENU DE 4 PRATOS</h1>
         <div class="red-line"></div>
-        <p>Na opção <strong>Menu</strong> pode escolher <strong>4</strong> pratos à sua escolha.</p>
-        <p> (4 números da carta)</p>
-        <p>11.95€ / menu</p>
+        <p>Na opção <strong>Menu*</strong> pode escolher <strong>4</strong> pratos à sua escolha.</p>
+        <p> (4 números da Carta)</p>
+        <p>9.50€ / menu</p>
+        <p>*Bebidas e Cafés não incluídos.</p>
         <p>Bom Apetite!</p>
       </div>
     </div>
 
     <button class="popups" onclick="togglePopupMenu('popup_menu')">MENU DE 4 PRATOS <i class="fa-solid fa-circle-info fa-xs"></i></button>
+
+    <div class="content_price">
+      <p> <strong>9.50€ / menu </strong></p>
+    </div>
 
     <p>Bebidas e café não incluídos no <strong>BUFFET</strong> e no <strong>MENU</strong>.</p>
 
@@ -58,6 +70,7 @@
       <p>Mesas com <strong>mais que uma pessoa</strong> servimos apenas <strong>BUFFET</strong> ou apenas <strong>MENU</strong>.</p>
       <p>Os nossos produtos podem conter molhos e temperos específicos.</p>
       <p>(as imagens deste menu são meramente ilustrativas)</p>
+      <p> <strong>Carta válida para almoços nos dias úteis</strong></p>
     </div>
   </div>
 
@@ -67,7 +80,7 @@
     <!-- Sushi -->
     <div>
       <div>
-        <p class="strong">Nigiri</p>
+        <p class="strong">Nigiri - 2 peças</p>
 
         <div id="nigiri" class="menu-container"></div>
           <script>
@@ -76,7 +89,7 @@
       </div>
 
       <div>
-        <p class="strong">Sashimi</p>
+        <p class="strong">Sashimi - 5 peças</p>
 
         <div id="sashimi" class="menu-container"></div>
           <script>
@@ -85,7 +98,7 @@
       </div>
       
       <div>
-        <p class="strong">Maki</p>
+        <p class="strong">Maki - 4 peças</p>
 
         <div id="maki" class="menu-container"></div>
           <script>
@@ -94,7 +107,7 @@
       </div>
 
       <div>
-        <p class="strong">Queijo</p>
+        <p class="strong">Queijo - 2 peças</p>
 
         <div id="queijo" class="menu-container"></div>
           <script>
@@ -103,7 +116,7 @@
       </div>
 
       <div>
-        <p class="strong">Ovo</p>
+        <p class="strong">Ovo - 2 peças</p>
 
         <div id="ovo" class="menu-container"></div>
           <script>
@@ -112,7 +125,7 @@
       </div>
 
       <div>
-        <p class="strong">Califórnia</p>
+        <p class="strong">Califórnia - 4 peças</p>
 
         <div id="california" class="menu-container"></div>
           <script>
@@ -121,7 +134,16 @@
       </div>
 
       <div>
-        <p class="strong">Rolo Grande</p>
+        <p class="strong">Wraps - 2 peças</p>
+
+        <div id="wraps" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/wraps.json', 'wraps' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Rolo Grande - 3 peças</p>
 
         <div id="big_roles" class="menu-container"></div>
           <script>
@@ -130,7 +152,41 @@
       </div>
 
       <div>
-        <p class="strong">Maki Slim</p>
+        <p class="strong">Temaki - 1 peça</p>
+        <div class="temaki_div_left">
+          <div class="temaki_block">
+
+            <section>
+              <article class="temaki_item">
+                <p class="drinks_name"><strong>46</strong> - Salmão</p>
+              </article>
+              <article class="temaki_item">
+                <p class="drinks_name"><strong>47</strong> - Atum</p>
+              </article>
+              <article class="temaki_item">
+                <p class="drinks_name"><strong>48</strong> - Delícias do Mar</p>
+              </article>
+              <article class="temaki_item">
+                <p class="drinks_name"><strong>49</strong> - Vegetais</p>
+              </article>
+              <article class="temaki_item">
+                <p class="drinks_name"><strong>50</strong> - Frutas</p>
+              </article>
+            </section>
+          </div>
+        </div>
+
+        <div class="temaki_div_right">
+          <div class="temaki_img">
+            <img src="resources/img/temaki.jpg" alt="Temaki img">
+          </div>
+        </div>
+
+      </div>
+      
+      <div>
+        <div class="maki_slim_roles_div_start"></div>
+        <p class="strong">Maki Slim - 2 peças</p>
 
         <div id="slim" class="menu-container"></div>
           <script>
@@ -147,7 +203,97 @@
           </script>
       </div>
 
+      <div>
+        <p class="strong">Diversos</p>
+
+        <div id="varied" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/varied.json', 'varied' ,'dishes-item');
+          </script>
+      </div>
+
     </div>
+
+    <!-- Kitchen -->
+    <div>
+      <div>
+        <p class="strong">Cozinha</p>
+
+        <div id="kitchen" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/kitchen.json', 'kitchen' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Fritos</p>
+
+        <div id="fried" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/fried.json', 'fried' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Grelhados</p>
+
+        <div id="grilled" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/grilled.json', 'grilled' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Yakitori - 2 peças</p>
+
+        <div id="yakitori" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/yakitori.json', 'yakitori' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Saladas</p>
+
+        <div id="salad" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/salad.json', 'salad' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Donburi</p>
+
+        <div id="donburi" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/donburi.json', 'donburi' ,'dishes-item');
+          </script>
+      </div>
+    </div>
+
+    <!-- Dessert -->
+    <div>
+      <div>
+        <p class="strong">Sobremesas</p>
+
+        <div id="dessert" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/dessert.json', 'dessert' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Sobremesas Fora Da Carta</p>
+
+        <div id="dessert_out" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/dessert_out_of_list.json', 'dessert_out' ,'dishes-item');
+          </script>
+      </div>
+
+    </div>
+    
+
 
     <div class="centered-content">
       <div class="logo-white">
