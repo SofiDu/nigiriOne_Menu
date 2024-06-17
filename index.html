@@ -26,9 +26,10 @@
       <div class="content_popup">
         <div class="close-btn" onclick="togglePopupMenu('popup_buffet')">&times;</div>
         <h1>BUFFET À LA CARTE</h1>
+        <div class="red-line"></div>
         <p>Na opção <strong>Buffet*</strong> pode escolher tudo o que quiser sem limites.</p>
-        <p>15.95€ / adulto</p>
-        <p>8.00€ / criança (4 a 9 anos)</p>
+        <p><strong>15.95€ / adulto </strong></p>
+        <p><strong> 8.00€ / criança (4 a 9 anos) </strong></p>
         <p>*Bebidas e Cafés não incluídos.</p>
         <p>Bom Apetite!</p>
         <p>(Estime a comida. Obrigado!)</p>
@@ -52,7 +53,7 @@
         <div class="red-line"></div>
         <p>Na opção <strong>Menu*</strong> pode escolher <strong>4</strong> pratos à sua escolha.</p>
         <p> (4 números da Carta)</p>
-        <p>9.50€ / menu</p>
+        <p><strong>9.50€ / menu </strong></p>
         <p>*Bebidas e Cafés não incluídos.</p>
         <p>Bom Apetite!</p>
       </div>
@@ -231,6 +232,15 @@
         <div id="fried" class="menu-container"></div>
           <script>
             fetchAndDisplayMenu('resources/py/json/fried.json', 'fried' ,'dishes-item');
+          </script>
+      </div>
+
+      <div>
+        <p class="strong">Sopas</p>
+
+        <div id="soup" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/soups.json', 'soup' ,'dishes-item');
           </script>
       </div>
 

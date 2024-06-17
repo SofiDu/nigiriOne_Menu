@@ -22,7 +22,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <p style="color: red; font-size: 12px;">disponível só no Buffet à La Carte</p>
             `;
           }
-        }else if (menuDivId === 'nigiri' ) {
+        }else if (menuDivId === 'nigiri' || menuDivId === 'sashimi' ) {
           // Check if item has 'pieces' component
           if (item.pieces) {
             menuItem.innerHTML = `

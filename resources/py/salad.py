@@ -14,9 +14,9 @@ if not os.path.exists(directory):
 # Define menu items
 
 menu_items = [
-  {"number": "V5","title": "Salada","image": "resources/img/V5.png"},
-  {"number": "V6","title": "Salada c/ Frango Panado","image": "resources/img/V6.png"},
-  {"number": "V7","title": "Salada c/ Gambas Panadas","image": "resources/img/V7.png"}
+  {"number": "V5","title": "Salada","image": "resources/img/V5.jpg"},
+  {"number": "V6","title": "Salada c/ Frango Panado","image": "resources/img/V6.jpg"},
+  {"number": "V7","title": "Salada c/ Gambas Panadas","image": "resources/img/V7.jpg"}
 ]
 
 # Write menu items to JSON file
