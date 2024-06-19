@@ -25,13 +25,12 @@
       <div class="overlay"></div>
       <div class="content_popup">
         <div class="close-btn" onclick="togglePopupMenu('popup_buffet')">&times;</div>
-        <h1>BUFFET À LA CARTE</h1>
-        <div class="red-line"></div>
+        <h1 style="color: red;">BUFFET À LA CARTE</h1>
         <p>Na opção <strong>Buffet*</strong> pode escolher tudo o que quiser sem limites.</p>
         <p><strong>15.95€ / adulto </strong></p>
         <p><strong> 8.00€ / criança (4 a 9 anos) </strong></p>
         <p>*Bebidas e Cafés não incluídos.</p>
-        <p>Bom Apetite!</p>
+        <p><strong>Bom Apetite!</strong></p>
         <p>(Estime a comida. Obrigado!)</p>
       </div>
     </div>
@@ -50,12 +49,11 @@
       <div class="content_popup">
         <div class="close-btn" onclick="togglePopupMenu('popup_menu')">&times;</div>
         <h1>MENU DE 4 PRATOS</h1>
-        <div class="red-line"></div>
         <p>Na opção <strong>Menu*</strong> pode escolher <strong>4</strong> pratos à sua escolha.</p>
         <p> (4 números da Carta)</p>
         <p><strong>9.50€ / menu </strong></p>
         <p>*Bebidas e Cafés não incluídos.</p>
-        <p>Bom Apetite!</p>
+        <p><strong>Bom Apetite!</strong></p>
       </div>
     </div>
 
@@ -194,6 +192,15 @@
             fetchAndDisplayMenu('resources/py/json/slim.json', 'slim' ,'dishes-item');
           </script>
       </div>
+
+      <div>
+        <p class="strong">Sushi Picante</p>
+
+        <div id="spicy" class="menu-container"></div>
+          <script>
+            fetchAndDisplayMenu('resources/py/json/spicy.json', 'spicy' ,'dishes-item');
+          </script>
+      </div>
       
       <div>
         <p class="strong">Combinados</p>
@@ -214,6 +221,12 @@
       </div>
 
     </div>
+
+    <div class="centered-content">
+      <div class="logo-black">
+          <img src="resources/img/logo_black_round_shape.png" alt="NIGIRI-ONE RESTAURANTE JAPONÊS">
+      </div>
+    </div>  
 
     <!-- Kitchen -->
     <div>
@@ -304,12 +317,13 @@
     </div>
     
 
-
     <div class="centered-content">
       <div class="logo-white">
           <img src="resources/img/logo_white.png" alt="NIGIRI-ONE RESTAURANTE JAPONÊS">
       </div>
     </div>  
+
+
     <p class="strong">Bebidas</p>
 
     <div class="drinks_div_left">
@@ -334,7 +348,7 @@
           <h2>Refrigerantes / Sangria / Cafés</h2>
           <hr>
           <article class="item">
-            <p class="drinks_name">Sumo de laranja natural</p><p class="price">2.70€</p>
+            <p class="drinks_name">Sumo de Laranja Natural</p><p class="price">2.70€</p>
           </article>
           <article class="item">
             <p class="drinks_name">Sagres</p><p class="price">1.95€</p>
@@ -343,7 +357,7 @@
             <p class="drinks_name">SuperBock</p><p class="price">1.95€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Cerveja sem álcool</p><p class="price">1.95€</p>
+            <p class="drinks_name">Cerveja sem Álcool</p><p class="price">1.95€</p>
           </article>
           <article class="item">
             <p class="drinks_name">Somersby</p><p class="price">2.30€</p>
@@ -352,22 +366,22 @@
             <p class="drinks_name">Água 0.5L</p><p class="price">1.40€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Água das pedras</p><p class="price">1.40€</p>
+            <p class="drinks_name">Água das Pedras</p><p class="price">1.40€</p>
           </article>
           <article class="item">
             <p class="drinks_name">Coca Cola</p><p class="price">1.95€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Coca cola zero</p><p class="price">1.95€</p>
+            <p class="drinks_name">Coca Cola Zero</p><p class="price">1.95€</p>
           </article>
           <article class="item">
             <p class="drinks_name">7Up</p><p class="price">1.95€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Fanta (laranja)</p><p class="price">1.95€</p>
+            <p class="drinks_name">Fanta (Laranja)</p><p class="price">1.95€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Sumol (laranja ou ananás)</p><p class="price">1.95€</p>
+            <p class="drinks_name">Sumol (Laranja ou Ananás)</p><p class="price">1.95€</p>
           </article>
           <article class="item">
             <p class="drinks_name">Guaraná</p><p class="price">1.95€</p>
@@ -377,10 +391,10 @@
           </article>
 
           <article class="item">
-            <p class="drinks_name">Sangria 0.5L (tinto ou branco)</p><p class="price">7.50€</p>
+            <p class="drinks_name">Sangria 0.5L (Tinto ou Branco)</p><p class="price">7.50€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Sangria 1.0L (tinto ou branco)</p><p class="price">10.50€</p>
+            <p class="drinks_name">Sangria 1.0L (Tinto ou Branco)</p><p class="price">10.50€</p>
           </article>
 
           <article class="item">
@@ -390,27 +404,27 @@
             <p class="drinks_name">Descafeinado</p><p class="price">0.85€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Café com leite</p><p class="price">1.30€</p>
+            <p class="drinks_name">Café com Leite</p><p class="price">1.30€</p>
           </article>
         </section>
 
         <section>
-          <h2>Bebida japonesa</h2>
+          <h2>Bebidas Japonesas</h2>
           <hr>
           <article class="item">
-            <p class="drinks_name">Sake (quente ou frio)</p><p class="price">2.85€</p>
+            <p class="drinks_name">Sake (Quente ou Frio)</p><p class="price">2.85€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Cerveja japonesa (Sapporo)</p><p class="price">2.75€</p>
+            <p class="drinks_name">Cerveja Japonesa (Sapporo)</p><p class="price">2.75€</p>
           </article>
           <article class="item">
             <p class="drinks_name">Cerveja TsingTao</p><p class="price">2.75€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Chá quente (verde ou jasmim)</p><p class="price">2.10€</p>
+            <p class="drinks_name">Chá Quente (Verde ou Jasmim)</p><p class="price">2.10€</p>
           </article>
           <article class="item">
-            <p class="drinks_name">Chá frio</p><p class="price">2.65€</p>
+            <p class="drinks_name">Chá Frio</p><p class="price">2.65€</p>
           </article>
         </section>
       

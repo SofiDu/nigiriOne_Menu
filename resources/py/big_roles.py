@@ -14,7 +14,7 @@ if not os.path.exists(directory):
 # Define menu items
 
 menu_items = [
-  {"number": "41","title": "Califórnia de Salmão,Delícias do Mar, Abacate, Ovas de salmão","image": "resources/img/41.png"},
+  {"number": "41","title": "Califórnia de Salmão,Delícias do Mar, Abacate, Ovas de Salmão","image": "resources/img/41.png"},
   {"number": "42","title": "Maki Frito de Salmão e Alho francês","image": "resources/img/42.png"},
   {"number": "43","title": "Maki de Gambas Panadas","image": "resources/img/43.png"},
   {"number": "44","title": "Rolo Ameixa Salmão e Coentros","image": "resources/img/44.png"},

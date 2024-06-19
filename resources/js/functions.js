@@ -19,7 +19,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p style="color: red; font-size: 12px;">disponível só no Buffet à La Carte</p>
+              <p style="color: red; font-size: 12px;">Disponível só no Buffet à La Carte</p>
             `;
           }
         }else if (menuDivId === 'nigiri' || menuDivId === 'sashimi' ) {
@@ -30,7 +30,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p style="color: red; font-size: 12px;">disponível só no Buffet à La Carte</p>
+              <p style="color: red; font-size: 12px;">Disponível só no Buffet à La Carte</p>
             `;
           }else {
             // For other menu IDs
@@ -40,15 +40,14 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h6>${item.title}</h6>
             `;
           }
-        }else if (menuDivId === 'varied' ) {
-          // Check if item has 'pieces' component
+        }else if (menuDivId === 'varied' || menuDivId === 'spicy' ) {
           if (item.number === "B5" ) {
             menuItem.innerHTML = `
               <img src="${item.image}" alt="${item.title}">
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p style="color: red; font-size: 12px;">disponível só no Buffet à La Carte</p>
+              <p style="color: red; font-size: 12px;">Disponível só no Buffet à La Carte</p>
             `;
           }else {
             // For other menu IDs

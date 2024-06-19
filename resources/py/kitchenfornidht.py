@@ -26,6 +26,7 @@ menu_items = [
   {"number": "610","title": "Pato Assado c/ Molho","image": "resources/img/610.png"},
   {"number": "611","title": "Amêijoas","image": "resources/img/611.png"},
   {"number": "612","title": "Frango c/ Caril","image": "resources/img/612.png"},
+  {"number": "613","title": "Vitela c/ Caril","image": "resources/img/613.png"},
   {"number": "614","title": "Frango c/ Molho","image": "resources/img/614.png"},
   {"number": "615","title": "Arroz Chao Chao","image": "resources/img/615.png"},
   {"number": "616","title": "Udon Frito c/ Gambas","image": "resources/img/616.png"},

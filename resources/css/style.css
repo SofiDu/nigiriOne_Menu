@@ -183,6 +183,7 @@ body {
   text-align: center;
   padding:20px;
   box-sizing: border-box;
+  border: 2px solid red;
 }
 
 .popup .close-btn {
@@ -323,7 +324,7 @@ body {
 .dishes-item img{
   align-self: center;
   width: 100px;
-  height: 90px;
+  height: auto;
 }
 
 .centered-content {
@@ -334,6 +335,12 @@ body {
 
 .logo-white img {
   flex: 0 0 auto;
+}
+
+.logo-black img {
+  flex: 0 0 auto;
+  width: 200px; 
+  height: auto; 
 }
 
 
@@ -411,8 +418,13 @@ body {
     margin-bottom: 10px;
   }
 
+  .information {
+    margin-bottom: 0px; 
+  }
+
   .information p {
     font-size: 0.7em;
+
   }
 
   .menu-container {
@@ -515,6 +527,12 @@ body {
   .logo img{
     width: 160px;
     flex: 0 0 auto;
+  }
+
+  .logo-black img {
+    flex: 0 0 auto;
+    width: 150px; 
+    height: auto; 
   }
 
   .content h1{
