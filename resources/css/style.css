@@ -531,8 +531,8 @@ body {
 
   .logo-black img {
     flex: 0 0 auto;
-    width: 150px; 
-    height: auto; 
+    width: 100px; 
+    height: 90px; 
   }
 
   .content h1{
