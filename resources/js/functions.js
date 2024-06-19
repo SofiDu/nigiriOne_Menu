@@ -19,7 +19,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p> <strong style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</strong></p>
+              <p><strong style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</strong></p>
             `;
           }
         }else if (menuDivId === 'nigiri' || menuDivId === 'sashimi' ) {
@@ -30,7 +30,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</p>
+              <p><strong style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</strong></p>
             `;
           }else {
             // For other menu IDs
@@ -47,7 +47,7 @@ function fetchAndDisplayMenu(jsonFile, menuDivId, menuDivClass) {
               <h4>${item.number}</h4>
               <h6>${item.title}</h6>
               <p>${item.pieces}</p>
-              <p style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</p>
+              <p><strong style="color: rgb(210, 55, 57); font-size: 12px;">Disponível só no Buffet à La Carte</strong></p>
             `;
           }else {
             // For other menu IDs

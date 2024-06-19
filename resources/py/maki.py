@@ -19,7 +19,8 @@ menu_items = [
   {"number": "18","title": "Gambas","image": "resources/img/18.png"},
   {"number": "19","title": "Enguia","image": "resources/img/19.png"},
   {"number": "20","title": "Gambas Panadas","image": "resources/img/20.png"},
-  {"number": "21","title": "Pepino","image": "resources/img/21.png"}
+  {"number": "21","title": "Pepino","image": "resources/img/21.png"},
+  {"number": "N21","title": "Manga","image": "resources/img/N21.jpg"}
 
 ]
 

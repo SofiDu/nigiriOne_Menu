@@ -28,5 +28,10 @@
     "number": "21",
     "title": "Pepino",
     "image": "resources/img/21.png"
+  },
+  {
+    "number": "N21",
+    "title": "Manga",
+    "image": "resources/img/N21.jpg"
   }
 ]
