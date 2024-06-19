@@ -104,7 +104,7 @@ body {
 .red-line {
   width: 30%; 
   height: 5px; 
-  background-color: rgb(229, 37, 40); 
+  background-color: rgb(185, 49, 51); 
   margin: 20px auto;
 }
 
@@ -183,7 +183,7 @@ body {
   text-align: center;
   padding:20px;
   box-sizing: border-box;
-  border: 2px solid red;
+  border: 2px solid rgb(185, 49, 51);
 }
 
 .popup .close-btn {
@@ -211,7 +211,9 @@ body {
   transform: translate(-50%,-50%) scale(1);
 }
 
-
+.content_popup h1{
+  color: rgb(210, 55, 57);
+}
 /* --------------drinks-----------------*/
 
 
@@ -465,7 +467,7 @@ body {
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 300px;
-    height: 330px;
+    height: 360px;
     z-index: 2;
     text-align: center;
     padding:20px;
@@ -531,7 +533,7 @@ body {
 
   .logo-black img {
     flex: 0 0 auto;
-    width: 100px; 
+    width: 120px; 
     height: 90px; 
   }
 
